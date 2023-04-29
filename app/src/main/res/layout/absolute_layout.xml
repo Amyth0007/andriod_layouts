@@ -1,0 +1,38 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/backbutton"
+        android:text="Back"
+        android:layout_x="10px"
+        android:layout_y="35px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_x="10px"
+        android:layout_y="210px"
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_x="235px"
+        android:layout_y="160px"
+        android:width="200px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="amit "
+        />
+    <TextView
+        android:layout_x="10px"
+        android:layout_y="360px"
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_x="235px"
+        android:layout_y="310px"
+        android:width="200px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="manore"/>
+</AbsoluteLayout>
